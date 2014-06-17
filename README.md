@@ -10,3 +10,7 @@ http://ellislab.com/expressionengine/user-guide/development/plugins.html
 
 
 Plugin folder to go in /system/ExpressionEngine/third_party
+
+
+Demo function hello()
+{exp:myplugin:hello}

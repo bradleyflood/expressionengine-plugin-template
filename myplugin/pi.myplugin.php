@@ -20,7 +20,17 @@ class Myplugin
   public function Myplugin()
   {
     $this->EE =& get_instance();
-    $this->EE->load->helper('string');
+  }
+  
+  /**
+   * Usage
+   * This function describes how the plugin is used.
+   * @access  public
+   * @return  string
+   */
+  public function hello()
+  {
+    return 'Hello world!'; // {exp:myplugin:hello}
   }
 
 
